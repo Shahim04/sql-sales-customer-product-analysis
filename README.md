@@ -75,30 +75,6 @@ Queries 8 and 9 create views that analysts and dashboards (such as Power BI) can
 - Safe division with `NULLIF`
 - Creating reusable views
 
-## How to Run
-
-1. Use **SQL Server 2022 or later** (the scripts use `DATETRUNC`, which is not available in older versions).
-2. Load the `gold` schema tables listed above into your database.
-3. Open any file in `sql_queries` in SQL Server Management Studio (SSMS) or Azure Data Studio and run it.
-4. Run the two view scripts (`08` and `09`) once to create the views. Each includes a `GO` before `CREATE VIEW`, which SSMS needs.
-
-## Repository Structure
-
-```
-sql-sales-analytics/
-├── README.md
-└── sql_queries/
-    ├── 01_monthly_sales_trend.sql
-    ├── 02_running_total_moving_average.sql
-    ├── 03_product_vs_average_performance.sql
-    ├── 04_product_year_over_year.sql
-    ├── 05_category_contribution.sql
-    ├── 06_product_cost_segmentation.sql
-    ├── 07_customer_segmentation.sql
-    ├── 08_customer_report_view.sql
-    └── 09_product_report_view.sql
-```
-
 ## Tools
 
 - Microsoft SQL Server
