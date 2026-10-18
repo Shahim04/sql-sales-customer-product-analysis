@@ -109,5 +109,5 @@ sql-sales-analytics/
 **Shahim Al-Rhahleh**, Data Analyst
 Skills: SQL, Python, Power BI, Excel
 
-- LinkedIn: _add your link here_
-- Email: _add your email here_
+- LinkedIn: https://www.linkedin.com/in/shahim-rhahleh-7b7350288/
+- Email: shhmrhahlh8@gmail.com
