@@ -62,10 +62,9 @@ The analysis uses a star schema in the `gold` layer:
 Queries 8 and 9 create views that analysts and dashboards (such as Power BI) can query directly.
 
 **`gold.report_customers`** includes: customer name, age and age group, customer segment, total orders, total spent, total quantity, total products, last order date, recency (months), average order value, average monthly spend, and lifespan.
-Imgs/customer_report.png
-
+![Customer report](Imgs/customer_report.png)
 **`gold.product_report`** includes: product name, category, subcategory, total orders, quantity sold, total customers, total sales, last order date, lifespan, recency (months), average order value, and performance segment.
-Imgs/product_report.png
+![Product report](Imgs/product_report.png)
 
 ## SQL Concepts Demonstrated
 
